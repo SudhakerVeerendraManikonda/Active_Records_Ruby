@@ -1,0 +1,22 @@
+Assign2 Due 11:59PM July 26th
+
+Write a Ruby program using Active Records (no rails in this assignment) to do the following:
+
+Create a worker (first name, last name, employee id (unique)).
+Create a work order (work id, work details, date of creation, status (created, in progress, review, completed), status update date).
+Assign a work order to a worker.
+View work orders assigned to a worker, that are not in the completed stage.
+View work orders in a given stage (like all work orders in review stage).
+view all work orders.
+
+Write a rake task to create the database with some preset data.
+Also provide a rake task that will run your program.
+
+Total [100]: 96
+
+Rake sets up db and runs code [10]:
+Program works reasonably [20]:
+Grading tests work [20]: -4
+Code quality [20]:
+Overall quality [20]:
+Structure of directories, separation of code [10]:
